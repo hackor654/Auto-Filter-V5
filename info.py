@@ -58,6 +58,7 @@ LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001529577466))
 RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', -1001529577466))
 
 # Bot Options
+MAX_RIST_BTNS = int(environ.get('MAX_RIST_BTNS', "10"))
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), False)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
